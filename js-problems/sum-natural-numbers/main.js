@@ -16,9 +16,9 @@ function solution(number){
     let wholeFivesandThrees=[...mutlipleOfThree,...mutlipleOfFive]
     console.log(wholeFivesandThrees)
     
-   let filterdFivesandThrees =[...new set (wholeFivesandThrees)]
- console.log(filterdFivesandThrees)
- let sumofFivesandThrees=filterdFivesandThrees.reduce((num,acc)=>num+acc)
+   let filterdFivesAndThrees=[...new Set(wholeFivesandThrees)]
+ console.log(filterdFivesAndThrees)
+ let sumofFivesandThrees=filterdFivesAndThrees.reduce((num,acc)=>num+acc)
       return sumofFivesandThrees
 
    }
