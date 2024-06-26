@@ -16,6 +16,6 @@ if(startNum<=endNum){
 rangeOfNumbers(startNum,endNum)
 return numbersArr
     } 
- 
+ localStorage
 
 console.log(rangeOfNumbers(3,10))
