@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pricing-container{
+        display:flex;
+        text-align:center;
+        justify-content: center;
+        padding:20px;
+        gap:2rem;
+        
+                
+
+    }
+
+    .pricing-table{
+        flex:1;
+        max-width:400px;
+        padding:20px;
+        background-color:#f2f2f2;
+        border-radius:5px;
+        text-align:cenetr;
+        
+        
+    }
+    .pricing-title{
+        font-weight:bold;
+        margin-bottom:10px;
+
+    }
+    .plan-price{
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+    .plan-features{
+        list-style: none;
+        padding:0;
+        margin:0;
+
+    }
+    .button{
+        padding-bottom: 10px;
+        padding:10px;
+        color:#fff;
+        background-color: orangered;
+       
+        border-radius:5px;
+         
+        border:none;
+
+    }
+    @media (max-width:1250px){
+        .pricing-container{
+            flex-direction:coloumn;
+            height:100%
+        }
+    }
+</style>
+<body>
+    <div class="pricing-container">
+        <div class="pricing-table">
+            
+            
+                <h3 class="plan-title">Basic</h3>
+                <h1 class="plan-price"> $ 11.99/Month</h1>
+                <ul class="plan-features">
+                    <li>
+                        10 GB Storage
+                    </li>
+                    <li>
+                        1 user
+                    </li>
+                    <li>
+                        support
+                    </li>
+                </ul>
+                <br/> <br/>
+           <div class="button">sign-up</div>
+                 
+        </div>
+    </div>
+    <div class="pricing-container">
+        <div class="pricing-table">
+           
+            
+                <h3 class="plan-title">Standard</h3>
+                <h1 class="plan-price"> $ 19.99/Month</h1>
+                <ul class="plan-features" >
+                    <li>
+                        50 GB Storage 
+                    </li>
+                    <li>
+                        5  user
+                    </li>
+                    <li>
+                        phone&E-mail/support
+                    </li>
+                </ul>
+                <br/> <br/>
+                <div class="button">sign-up</div>
+        </div>
+    </div>
+    <div class="pricing-container">
+        <div class="pricing-table">
+           
+                <h3 class="plan-title">Premium</h3>
+                <h1 class="plan-price"> $ 49.99/Month</h1>
+                <ul class="plan-features">
+                    <li>
+                        100 GB Storage
+                    </li>
+                    <li>
+                        10 user
+                    </li>
+                    <li>
+                        support
+                    </li>
+                </ul>
+                <br/> <br/>
+                <div class="button">sign-up</div>
+        </div>
+    </div>
+</body>
+</body>
+</html>
