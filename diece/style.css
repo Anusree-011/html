@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(70, 31, 76);
+    margin: auto;
+
+   
+}
+.container{
+    color:aliceblue;
+    text-align:center;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    margin: auto;
+
+}
+.p1{
+    color:rgb(126, 129, 131);
+    text-align:center;
+    font-family:Apple Chancery, cursive;
+    
+   
+    
+}
+   
+     .h4{
+        margin: 0;
+     display: inline;
+     text-align: center;
+     justify-content: center;
+   
+     }
+    
+.p2{
+    color:rgb(126, 129, 131);
+    text-align:center;
+    font-family:Apple Chancery, cursive;
+
+    
+
+}
+.dieceimg{
+    
+        text-align: center;
+    font-size:10px;
+    color:rgb(66, 75, 81);
+}
+.img{
+    max-width:10px;  
+height: auto;  
+}
+.img1{
+    max-width:100%;  
+height: auto;  
+padding:60px;
+}
+.img2{
+    max-width:100%;  
+height: auto;  
+padding:60px;
+}
