@@ -19,7 +19,7 @@ console.log(increment)
 
 function save(){
     let totalCount=  count +"-" ;
-    saveEl.innerHTML += totalCount
+    saveEl.innerHTML += totalCount;
 
     console.log(count)
 }

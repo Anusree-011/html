@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(193, 158, 225);
+    text-align:center;
+}
+h1{
+    color:rgb(252, 5, 5);
+    text-align:center;
+    justify-content: center;
+    font-size:50px;
+    
+}
+#demo{
+    
+    color:black;
+    font-size:30px;
+    
+}
+#btn{
+    background-color: rgb(105, 105, 210);
+    border-radius: 30px;
+    width:200px;
+}
+#btns{
+    background-color: rgb(103, 103, 191);
+    border-radius: 30px;
+    width:200px;
+}
+#save-El{
+    color:rgb(7, 0, 0);
+    text-align:center;
+    justify-content: center;
+    font-size:50px;
+    
+}
